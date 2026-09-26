@@ -14,4 +14,4 @@ COPY cloud_listener.py .
 COPY serviceAccountKey.json .
 
 # Start the cloud listener continuously
-CMD ["python", "cloud_listener.py"]
+CMD ["python", "-u","cloud_listener.py"]
